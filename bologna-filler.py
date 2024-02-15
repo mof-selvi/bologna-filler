@@ -36,7 +36,7 @@ def on_activate_v():
     cb_str = cb_str_orig.replace("\r","").strip()
     print("CB:",cb_str)
 
-    if "\t" in cb_str and "\n" in cb_str:
+    if "\t" in cb_str or "\n" in cb_str:
         values = cb_str.replace("\n","\t").split("\t")
         print(values)
         working = True
