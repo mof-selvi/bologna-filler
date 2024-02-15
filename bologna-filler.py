@@ -50,18 +50,20 @@ def on_activate_v():
             
             virtualkb.press(Key.ctrl_l)
             time.sleep(sleeptime)
+
             virtualkb.press('a')
-            # time.sleep(0.1)
             virtualkb.release('a')
+
             time.sleep(sleeptime)
+
             virtualkb.press('v')
-            # time.sleep(0.1)
             virtualkb.release('v')
+
             time.sleep(sleeptime)
+
             virtualkb.release(Key.ctrl_l)
             time.sleep(sleeptime)
             virtualkb.press(Key.tab)
-            # time.sleep(0.1)
             virtualkb.release(Key.tab)
             time.sleep(sleeptime)
 
